@@ -11,20 +11,20 @@
   </head>
   <body>
     <div id="container" class="container mt-3">
-      <div class="form-group row">
-  <div class="col-xs-2 mx-2">
-    <input id="userID" placeholder="ID" class="form-control" type="text">
-  </div>
-  <div class="col-xs-3 mx-1">
-    <button class="btn btn-primary" onclick="fetchUser()">Buscar</button>
-  </div>
-</div>
       <h1>Hello fetch</h1>
       <p>Ingresá el ID del usuario que querés buscar.</p>
-      <input id="userID" placeholder="ID" type="text">
-      <button>Buscar</button>
+      <div class="form-group row">
+       <div class="col-xs-2 mx-2">  
+         <input id="userID" placeholder="ID"class="form-control" type="text">
+        </div>
+        <div class="col-xs-3 mx-1">
+        <button class="btn btn-primary" onclick="fetchUser()">Buscar</button>
+
+      </div>
+      </div>
       <hr>
-      <table id="table class="table table-striped">
+      <hr>
+      <table id="table" class="table table-striped">
         <thead class="thead-dark">
           <th>id</th>
           <th>Nombre</th>
